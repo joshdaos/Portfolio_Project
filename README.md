@@ -1,3 +1,3 @@
 # Portfolio 
 
-Currently building out a portfolio hub..
+Currently building out a portfolio in React..
