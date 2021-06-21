@@ -1,11 +1,22 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
 
 function Header() {
     return(
         <header className="header__content">
-            <div>
-                <h1 className="">Josh Daos</h1>
-            </div>
+            <Typewriter
+            onInit={(typewriter) => {
+                typewriter.typeString('Joshua Daos')
+                .callFunction(() => {
+                    console.log('String typed out!');
+                })
+                .pauseFor(2500)
+                .callFunction(() => {
+                    console.log('All strings were deleted');
+                })
+                .start();
+            }}
+            />
         </header>
     )
 }
