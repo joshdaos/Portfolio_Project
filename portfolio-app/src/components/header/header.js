@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 function Header() {
     return(
         <header className="header__content">
-            <Typewriter
+            <Typewriter className="typewriter__content"
             onInit={(typewriter) => {
                 typewriter.typeString('Joshua Daos')
                 .callFunction(() => {
