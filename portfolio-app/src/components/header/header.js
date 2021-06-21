@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function Header() {
     return(
-        <header className="header__content">
+        <header id="home" className="header__content">
             <Typewriter className="typewriter__content"
             onInit={(typewriter) => {
                 typewriter.typeString('Software Engineer')
@@ -12,7 +12,7 @@ function Header() {
                 })
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString('Minimalist')
+                .typeString('Aspiring UI Designer')
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString('Travel Enthusiast')
@@ -21,7 +21,7 @@ function Header() {
                 .typeString('Food Lover')
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString('UI Designer')
+                .typeString('Minimalist')
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString('Josh Daos')

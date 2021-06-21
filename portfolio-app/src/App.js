@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/header';
 import Nav from './components/Nav/nav';
 import About from './components/About/about';
-import Project from './components/Project/project';
+import Projects from './components/Projects/projects';
 
 
 
@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <Header />
       <About />
-      <Project />
+      <Projects />
     </div>
   );
 }
