@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 function Header() {
@@ -6,11 +6,25 @@ function Header() {
         <header className="header__content">
             <Typewriter className="typewriter__content"
             onInit={(typewriter) => {
-                typewriter.typeString('Joshua Daos')
+                typewriter.typeString('Software Engineer')
                 .callFunction(() => {
                     console.log('String typed out!');
                 })
-                .pauseFor(2500)
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('Minimalist')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('Travel Enthusiast')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('Food Lover')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('UI Designer')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('Josh Daos')
                 .callFunction(() => {
                     console.log('All strings were deleted');
                 })
