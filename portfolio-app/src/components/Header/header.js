@@ -12,11 +12,7 @@ function Header() {
                 })
                 .pauseFor(1000)
                 .deleteAll()
-<<<<<<< HEAD:portfolio-app/src/components/Header/header.js
                 .typeString('Designer')
-=======
-                .typeString('Aspiring UI Designer')
->>>>>>> dc4cc48b8d5cc810b8e9c9d38674b47af4113936:portfolio-app/src/components/header/header.js
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString('Travel Enthusiast')
