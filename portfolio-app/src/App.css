@@ -90,7 +90,7 @@ a {
   float: left;
   margin: 10px;
   margin-left: 60px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
 }
 
 .image {
@@ -129,5 +129,6 @@ a {
   /* padding: 16px 32px; */
   padding: 15px;
   border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
 }
 
