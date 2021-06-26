@@ -6,40 +6,44 @@ function Projects() {
         <section id="project">
             <h1>Projects</h1>
 
-        <div class="card">
-        <img src={ProjectOne} alt="Avatar" width="100%"/>
-            <div class="container">
-                <h4><b>Project 1</b></h4>
-                <p>Tamagotchi Game</p>
-                <a href=""></a>
+        <div className="container">
+        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <div className="middle">
+            <div className="text">
+                <p>Grootagotchi</p>
+                <a href="">Live Site</a>
+            </div>
+        </div>
+
+        </div>
+        <div className="container">
+        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <div className="middle">
+            <div className="text">
+                <p>Grootagotchi</p>
+                <a href="">Live Site</a>
+            </div>
+        </div>
+
+        </div>
+        <div className="container">
+        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <div className="middle">
+            <div className="text">
+                <p>Grootagotchi</p>
+                <a href="">Live Site</a>
             </div>
         </div>
         
-        <div class="card">
-        <img src={ProjectOne} alt="Avatar" width="100%"/>
-            <div class="container">
-                <h4><b>Project 1</b></h4>
-                <p>Tamagotchi Game</p>
-                <a href=""></a>
+        </div>
+        <div className="container">
+        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <div className="middle">
+            <div className="text">
+                <p>Grootagotchi</p>
+                <a href="">Live Site</a>
             </div>
         </div>
-
-        <div class="card">
-        <img src={ProjectOne} alt="Avatar" width="100%"/>
-            <div class="container">
-                <h4><b>Project 1</b></h4>
-                <p>Tamagotchi Game</p>
-                <a href=""></a>
-            </div>
-        </div>
-
-        <div class="card">
-        <img src={ProjectOne} alt="Avatar" width="100%"/>
-            <div class="container">
-                <h4><b>Project 1</b></h4>
-                <p>Tamagotchi Game</p>
-                <a href=""></a>
-            </div>
         </div>
 
         </section>
