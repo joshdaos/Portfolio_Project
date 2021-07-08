@@ -59,14 +59,13 @@ nav {
   left: 0;
   height: 3em;
   width: 100%;
-  background-color: #EEE;
   box-sizing: border-box;
   transition: background-color 0.4s ease-out;
   list-style-type: none;
   text-align: center;
   background: linear-gradient(to top, transparent 0%, black 150%);
   margin-top: 0;
-  
+ 
 }
 
 a {
@@ -77,18 +76,23 @@ a {
 
 .container {
   position: relative;
-  width: 40%;
+  width: 350px;
+  height: 300px;
   float: left;
-  margin: 10px;
-  margin-left: 60px;
+  margin-top: 14px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 28px;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
+  border-radius: 20px;
 }
 
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 300px;
+  border-radius: 20px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -114,7 +118,7 @@ a {
 }
 
 .text {
-  background-color: #058053;
+  background-color: #242424;
   color: white;
   font-size: 16px;
   /* padding: 16px 32px; */
@@ -123,3 +127,6 @@ a {
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
 }
 
+.skill__content {
+  margin-top: 750px;
+}
