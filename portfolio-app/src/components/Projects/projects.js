@@ -1,5 +1,9 @@
 import React from 'react';
 import ProjectOne from '../../images/grootagotchi.jpg'
+import ProjectTwo from '../../images/gitsumcoffee.jpg'
+import ProjectThree from '../../images/wayfarer.jpg'
+import ProjectFour from '../../images/dripsy.jpg'
+
 
 function Projects() {
     return(
@@ -10,38 +14,44 @@ function Projects() {
         <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
         <div className="middle">
             <div className="text">
-                <p>Grootagotchi</p>
-                <a href="">Live Site</a>
+            <h1>Grootagotchi</h1>
+                <p>HTML, CSS, JavaScript, and jQuery</p>
+                <a href="">Live Site<br></br></a>
+                <a href="">GitHub</a>
             </div>
         </div>
 
         </div>
         <div className="container">
-        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <img src={ProjectTwo} alt="Avatar" className="image" width="100%"/>
         <div className="middle">
             <div className="text">
-                <p>Grootagotchi</p>
-                <a href="">Live Site</a>
+            <h1>GitSumCoffee</h1>
+                <p>MEN-Stack, JavaScript, Express, MongoDB/Mongoose, Node, and HTML/CSS.</p>
+                <a href="">Live Site<br></br></a>
+                <a href="">GitHub</a>
             </div>
         </div>
 
         </div>
         <div className="container">
-        <img src="https://media3.giphy.com/media/4LTGEdPueINFzycY1Ixq/200.webp?cid=ecf05e472q8rjtjl31sfaag11ljvv4f1x4gg1j01okhiowf9&rid=200.webp&ct=g" alt="Avatar" className="image" width="100%"/>
+        <img src={ProjectThree} alt="Avatar" className="image" width="100%"/>
         <div className="middle">
             <div className="text">
-                <p>Grootagotchi</p>
-                <a href="">Live Site</a>
+            <h1>Wayfarer</h1>
+                <p>Python, Django, PostgreSQL, and HTML/CSS</p>
+                <a href="">Live Site<br></br></a>
+                <a href="">GitHub</a>
             </div>
         </div>
 
         </div>
         <div className="container">
-        <img src={ProjectOne} alt="Avatar" className="image" width="100%"/>
+        <img src={ProjectFour} alt="Avatar" className="image" width="100%" height="100px"/>
         <div className="middle">
             <div className="text">
-                <h1>Grootagotchi</h1>
-                <p>HTML, CSS, JAVASCRIPT, and JQUERY</p>
+            <h1>Dripsy</h1>
+                <p>Python, Django, PostgreSQL, and HTML/CSS</p>
                 <a href="">Live Site<br></br></a>
                 <a href="">GitHub</a>
             </div>

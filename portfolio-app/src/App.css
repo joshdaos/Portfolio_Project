@@ -15,17 +15,25 @@
 }
 
 body {
-  background-color: #242424;
+  background-color: #464545;
   height: 200vh;
 }
 
 .header__content {
+  display: flex;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
   font-size: 50px;
   padding: 150px;
   box-shadow: 0px 4px 7px rgb(29, 28, 28);
   background-size: cover;
   font-family: 'Courier New', Courier, monospace;
   background-image: url(./images/leaf.jpg);
+}
+
+.header__p {
+  font-size: 25px;
 }
 
 #home__link {
@@ -36,8 +44,14 @@ body {
   background-color: #1f1e1e;
   padding: 50px;
   margin: 50px;
+  text-align: left;
 }
 
+.profile__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
 
 nav {
   position: fixed;
@@ -45,38 +59,14 @@ nav {
   left: 0;
   height: 3em;
   width: 100%;
-  background-color: #EEE;
   box-sizing: border-box;
   transition: background-color 0.4s ease-out;
   list-style-type: none;
   text-align: center;
   background: linear-gradient(to top, transparent 0%, black 150%);
   margin-top: 0;
-  
+ 
 }
-
-
-/* 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-  background-color: #444444;
-  float:left;
-  margin: 20px;
-  margin-left: 60px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  opacity: 10;
-}
-
-.container {
-  padding: 2px 16px;
-} */
 
 a {
   color: aqua;
@@ -86,18 +76,23 @@ a {
 
 .container {
   position: relative;
-  width: 40%;
+  width: 350px;
+  height: 300px;
   float: left;
-  margin: 10px;
-  margin-left: 60px;
+  margin-top: 14px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 28px;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
+  border-radius: 20px;
 }
 
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 300px;
+  border-radius: 20px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -123,12 +118,16 @@ a {
 }
 
 .text {
-  background-color: #058053;
+  background-color: #242424;
   color: white;
   font-size: 16px;
   /* padding: 16px 32px; */
   padding: 15px;
   border-radius: 10px;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.8);
+}
+
+.skill__content {
+  margin-top: 750px;
 }
 
